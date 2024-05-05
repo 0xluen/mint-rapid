@@ -147,34 +147,31 @@ export default function Home() {
         style={{ height: "100vh" }}
       >
         <img src="/Group 198.png" className="absolute" />
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10   from-[#8543f3] via-[#d065f6]/0 to-[#8543f3] rounded ">
-            <img
-            style={{borderRadius:'14px'}}
-              className="object-cover object-center bg-black w-full p-[1px] hover:scale-110 transition ease-in-out delay-150 duration-300 rotate-30"
-              alt="hero"
-              src="./nft.png"
-            />
-          </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-center md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              Before they sold out
-            </h1>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
-            </p>
-
-            <div className="mt-3 w-1/2 mx-auto flex gap-2 ">
-              <button  onClick={(e) => mint()} className="bg-gradient-to-r bg-transparent from-[#8543f3] to-[#d065f6] w-full text-[#08080f] hover:bg-gradient-to-r hover:from-violet-900 hover:to-[#4e295b] hover:text-[#a98ed5]  px-6 py-3 rounded text-md font-semibold text-semibold transition  ">
-                Mint
-              </button>
-              <img src="/Vector.svg" className="absolute bottom-0 right-0" style={{zIndex: "-1"}} />
-            </div>
-          </div>
+        <div className="container mx-auto flex px-5 py-24 flex-col items-center">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 from-[#8543f3] via-[#d065f6]/0 to-[#8543f3] rounded">
+        <img
+        style={{borderRadius:'14px'}}
+          className="object-cover object-center bg-black w-full p-[1px] hover:scale-110 transition ease-in-out delay-150 duration-300 rotate-30"
+          alt="hero"
+          src="./nft.png"
+        />
+    </div>
+    <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          Rapid Chain Testnet NFT
+        </h1>
+        <p className="mb-8 leading-relaxed">
+        Thank you for supporting us on this journey.
+        </p>
+        <div className="mt-3 w-1/2 flex gap-2 ">
+          <button  onClick={(e) => mint()} className="bg-gradient-to-r bg-transparent from-[#8543f3] to-[#d065f6] w-full text-[#08080f] hover:bg-gradient-to-r hover:from-violet-900 hover:to-[#4e295b] hover:text-[#a98ed5]  px-6 py-3 rounded text-md font-semibold text-semibold transition">
+            Mint
+          </button>
+          <img src="/Vector.svg" className="absolute bottom-0 right-0" style={{zIndex: "-1"}} />
         </div>
+    </div>
+</div>
+
       </section>
 
       <Footer />
