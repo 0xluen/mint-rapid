@@ -64,10 +64,10 @@ export default function Home() {
             <img className="h-full" src="/RAPID CHAIN.png" />
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-gray-400">
-            <a className="mr-5 hover:text-gray-200">First Link</a>
-            <a className="mr-5 hover:text-gray-200">Second Link</a>
-            <a className="mr-5 hover:text-gray-200">Third Link</a>
-            <a className="mr-10 hover:text-gray-200">Fourth Link</a>
+        
+            <a  href="https://testnet.rapidscan.io" target="_blank" className="mr-5 hover:text-gray-200">RapidScan</a>
+            <a href="https://faucet.rapidchain.io" target="_blank" className="mr-5 hover:text-gray-200">Faucet</a>
+  
           </nav>
 
 
@@ -148,11 +148,12 @@ export default function Home() {
       >
         <img src="/Group 198.png" className="absolute" />
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10  bg-gradient-to-br from-[#8543f3] via-[#d065f6]/0 to-[#8543f3] rounded ">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10   from-[#8543f3] via-[#d065f6]/0 to-[#8543f3] rounded ">
             <img
+            style={{borderRadius:'14px'}}
               className="object-cover object-center bg-black w-full p-[1px] hover:scale-110 transition ease-in-out delay-150 duration-300 rotate-30"
               alt="hero"
-              src="/Rectangle 866.png"
+              src="./nft.png"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-center md:text-left items-center text-center">
